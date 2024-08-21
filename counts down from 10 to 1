@@ -1,0 +1,9 @@
+#Q1:Countdown to Blastoff:
+#Write a program that counts down from 10 to 1, printing each number, and then prints "Blastoff!".
+
+i = 10
+while i >= 1:
+    print(i)
+    i -= 1
+
+print("Blastoff!")
