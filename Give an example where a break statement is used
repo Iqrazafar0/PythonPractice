@@ -1,0 +1,8 @@
+#Q3:Give an example where a break statement is used in a while loop.
+
+i = 0
+while True:
+    print(i)
+    i += 1
+    if i >= 5:
+        break
