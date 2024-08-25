@@ -1,0 +1,7 @@
+#Q:Explain how to iterate over elements in a list using a while loop.
+
+num = [1,2,3,4,5]
+i = 0
+while i < len(num):
+    print(num[i])
+    i += 1
