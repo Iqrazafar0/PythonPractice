@@ -1,0 +1,11 @@
+              #using while loop in pyuthon(break & continue)
+
+#Q:Can you use a while loop to validate user input until a condition is met?
+
+while True:
+    age = int(input("Enter your age: "))
+    if age >= 18:
+        print("Access granted.")
+        break
+    else:
+        print("you have must b older than 18.")
