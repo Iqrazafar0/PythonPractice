@@ -1,0 +1,16 @@
+#Q:How would you create a menu-driven program using a while loop?
+
+while True:
+    print("1.option 1")
+    print("2.option 2")
+    print("3.quite")
+    choice = input("enter your choice:")
+    if choice == '1':
+        print("executing option 1")
+    elif choice == '2':
+        print("executing option 2")
+   elif choice == '3':
+        print("exiting progam..")
+        break
+    else:
+        print("you enter an invalid choice.try again..")
