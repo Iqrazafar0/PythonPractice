@@ -1,0 +1,16 @@
+                         #connditional statements
+#Q:Explain how a while loop can be used to simulate a simple game scenario.
+
+target_numb = 42
+attempts = 0
+while True:
+    guess = int(input("Enter you guess(between 1 & 100):"))
+    attempts += 1
+
+    if guess == target_numb:
+        print(f"Congratulations! You guessed it right in {attempts} attempts.")
+        break
+    elif guess < target_numb:
+        print("too low.try again")
+    else:
+        print("too high.try again.")
