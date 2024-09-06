@@ -1,0 +1,8 @@
+                   # for loop in python
+
+#Q:print the elements of the following list using loops.
+
+num = [1,4,9,16,25,36,47,64,81,100]
+
+for val in num:
+print(val)
