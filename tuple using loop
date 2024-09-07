@@ -1,0 +1,14 @@
+                     #FOR LOOP
+
+#Q:search for a num 'x' in this tuple using loop.
+
+num = (1,4,9,16,25,36,47,64,81,100,36)
+
+x = 36
+
+
+idx = 0
+for val in num:
+    if val == x:
+        print("val found at idx", idx)
+    idx += 1
