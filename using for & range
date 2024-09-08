@@ -1,0 +1,8 @@
+                                  # using for & range
+
+#Q1:print numbers fom 1 to 100.
+
+num = range(1,101) # 1 is stat, 100 is stop & if we write 3rd num it will be called step means by which we increase 1 or 2.
+
+for el in num:
+    print(el)
