@@ -1,0 +1,12 @@
+                       # functions in python
+
+#Q1:WAP to print the length of a list.(list is the parameter).
+
+cities = ["khanewal","sahiwal","vehari","lahore","okara","karachi"]
+dramas = ["jannisar","khani","humsafar","eshqiya","parizaad"]
+
+def print_len(list):
+    print(len(list))
+
+print_len(cities)
+print_len(dramas)
